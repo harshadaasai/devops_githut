@@ -13,4 +13,10 @@ jobs:
     steps:
      - name: Run a single command
        run: echo hello World!
+     - name: Run a set of commands
+       run: |    # use | symbol to pass set of commands to run function
+         echo hello to github
+         echo test
+      
+
      
